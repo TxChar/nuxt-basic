@@ -6,7 +6,12 @@
 </template>
 
 <script setup>
-
+    useHead({
+    title: 'HomePage',
+    meta: [
+        { name: 'description', content: 'My amazing site.' }
+    ],
+    })
 </script>
 
 <style scoped>
